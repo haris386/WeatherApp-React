@@ -205,7 +205,7 @@ body {
   box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
   background-color: #222831;
   color: #ffffff;
-  height: 400px;
+  height: 360px;
 }
 
 .weather-side {
@@ -317,7 +317,7 @@ body {
 }
 
 .week-list {
-  width: 76%;
+  width: 53%;
   list-style-type: none;
   padding: 0;
   margin: 10px 35px;
@@ -375,7 +375,7 @@ body {
 }
 
 .location-container {
-  padding: 25px 35px;
+  padding: 1px 35px;
 }
 
 .location-button {
@@ -386,18 +386,7 @@ body {
   border: none;
   border-radius: 25px;
   padding: 10px;
-  font-family: "Montserrat", sans-serif;
   background-image: var(--gradient);
-  color: #ffffff;
-  font-weight: 700;
-  -webkit-box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
-  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-  -webkit-transition: -webkit-transform 200ms ease;
-  transition: -webkit-transform 200ms ease;
-  -o-transition: transform 200ms ease;
-  transition: transform 200ms ease;
-  transition: transform 200ms ease, -webkit-transform 200ms ease;
 }
 
 .location-button:hover {
